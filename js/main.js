@@ -5,7 +5,7 @@ $(window).load(function() { // makes sure the whole site is loaded
     })
 
 $(document).ready(function() {
- 
+ $('body').scrollspy({ target: '.main-nav' })
   $("#bg-slider").owlCarousel({
       navigation : false, // Show next and prev buttons
       slideSpeed : 100,
