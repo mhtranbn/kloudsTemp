@@ -66,10 +66,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <div class="button navbar-right">
-                    <button class="navbar-btn nav-button wow bounceInRight login" data-wow-delay="0.8s">Login</button>
-                    <button class="navbar-btn nav-button wow fadeInRight" data-wow-delay="0.6s">Sign up</button>
+                    <!-- <button class="navbar-btn nav-button wow bounceInRight login" data-wow-delay="0.8s">Login</button> -->
+                    <li class="wow fadeInDown" data-wow-delay="0.8"><a href="#login">Login  </a>       <a href="#signup">  Sign up</a></li>
+                    <!-- <button class="navbar-btn nav-button wow fadeInRight" data-wow-delay="0.6s">Sign up</button> -->
+                    <!-- <li class="wow fadeInDown" data-wow-delay="0.8"><a href="#signup">Sign up</a></li> -->
                 </div>
                 <ul class="main-nav nav navbar-nav navbar-right">
+
+                    <!-- <li><a href="#top" id="home" class="skel-layers-ignoreHref"><span>Home</span></a></li>-------scrollToSlide(index);
+                    <li><a href="#top" id="app" class="skel-layers-ignoreHref"><span>Apps</span></a></li>
+                    <li><a href="#top" id="about" class="skel-layers-ignoreHref"><span>About us</span></a></li> -->
+                    <!-- <li><a href="#contact" id="contact" class="skel-layers-ignoreHref"><span>Contact us</span></a></li> -->
                     <li class="wow fadeInDown" data-wow-delay="0s"><a class="active" href="#home">Home</a></li>
                     <li class="wow fadeInDown" data-wow-delay="0.1s"><a href="#app">Apps</a></li>
                     <li class="wow fadeInDown" data-wow-delay="0.2s"><a href="#about">About us</a></li>
@@ -260,51 +267,70 @@
                 <form action="" method="post">
                 <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
-                        <td class="form-input-name">First Name</td>
-                        <td class="input"><input type="text" name="pre[firstname]" placeholder="Your first name here..." autocomplete="off" required="required" /></td>
+                      <label for="inputEmail" class="sr-only">Email address</label>
+
+                        <!-- <td class="form-input-name"></td> -->
+
+                        <input type="text" id="pre[firstname]" class="form-control" placeholder="Your first name here..." autocomplete="off" required="required">
+                        <!-- <td class="input"><input type="text" name="pre[firstname]" placeholder="Your first name here..." autocomplete="off" required="required" /></td> -->
                     </tr>
                     <tr>
-                        <td class="form-input-name">Last Name</td>
-                        <td class="input"><input type="text" name="pre[lastname]" placeholder="Your last name here..." autocomplete="off" required="required" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="input"><input type="password" name="pre[repassword]" placeholder="Retype your password..." autocomplete="off" required="required" /></td> -->
+                          <input type="text" id="pre[lastname]" class="form-control" placeholder="Your last name here..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">Street Address</td>
-                        <td class="input"><input type="text" name="pre[streetaddress]" placeholder="Your street address here..." autocomplete="off" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="form-control"><input type="text" name="pre[streetaddress]" placeholder="Your street address here..." autocomplete="off" /></td> -->
+                        <input type="text" id="pre[streetaddress]" class="form-control" placeholder="Your street address here..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">City</td>
-                        <td class="input"><input type="text" name="pre[city]" placeholder="Your city here..." autocomplete="off" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="form-control"><input type="text" name="pre[city]" placeholder="Your city here..." autocomplete="off" /></td> -->
+                        <input type="text" id="pre[city]" class="form-control" placeholder="Your city here..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">Country</td>
-                        <td class="input"><input type="text" name="pre[country]" placeholder="Your country here..." autocomplete="off" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="input"><input type="text" name="pre[country]" placeholder="Your country here..." autocomplete="off" /></td> -->
+                        <input type="text" id="pre[country]" class="form-control" placeholder="Your country here..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">Postal Code</td>
-                        <td class="input"><input type="number" name="pre[postalcode]" placeholder="Your postal code here..." autocomplete="off" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="input"><input type="number" name="pre[postalcode]" placeholder="Your postal code here..." autocomplete="off" /></td> -->
+                        <input type="number" id="pre[postalcode]" class="form-control" placeholder="Your postal code here..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">E-mail</td>
-                        <td class="input"><input type="email" name="pre[email]" placeholder="Your E-mail here..." autocomplete="off" required="required" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="input"><input type="email" name="pre[email]" placeholder="Your E-mail here..." autocomplete="off" required="required" /></td> -->
+                        <input type="email" id="pre[email]" class="form-control" placeholder="Your E-mail here..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">Password</td>
-                        <td class="input"><input type="password" name="pre[password]" placeholder="Your password here..." autocomplete="off" required="required" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="input"><input type="password" name="pre[password]" placeholder="Your password here..." autocomplete="off" required="required" /></td> -->
+                        <input type="password" id="pre[password]" class="form-control" placeholder="Your password here..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">Retype Password</td>
-                        <td class="input"><input type="password" name="pre[repassword]" placeholder="Retype your password..." autocomplete="off" required="required" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="input"><input type="password" name="pre[repassword]" placeholder="Retype your password..." autocomplete="off" required="required" /></td> -->
+                        <input type="password" id="pre[password]" class="form-control" placeholder="Retype your password..." autocomplete="off" required="required">
                     </tr>
                     <tr>
-                        <td class="form-input-name">Aditional Information</td>
-                        <td class="input"><textarea name="pre[info]" rows="5" cols="29" placeholder="Aditional information"></textarea></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td class="form-control"><textarea name="pre[info]" rows="5" cols="29" placeholder="Aditional information"></textarea></td> -->
+                        <input class="form-control" type="text" id="pre[info]" rows="5" cols="29" placeholder="Aditional information">
                     </tr>
                     <tr>
-                        <td class="form-input-name"></td>
-                        <td><input type="submit" value="Register" /></td>
+                        <!-- <td class="form-input-name"></td> -->
+                        <!-- <td><input type="submit" value="Register" /></td> -->
+
+
                     </tr>
+
                 </table>
+                <br></br>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
                 </form>
+
                 </form>
 
                     </div>
@@ -330,7 +356,7 @@
                     <hr>
                     <div class="content-area" id="contact">
                         <div class="container">
-                            <div class="row page-title text-center wow zoomInDown" data-wow-delay="1s">
+                            <div class="row page-title text-center wow zoomInDown" data-wow-delay="0s">
                                 <h2>Contact us</h2>
                                 <form id="contact" method="post" class="form" role="form">
                                     <div class="row">
@@ -356,15 +382,15 @@
                     </div>
                     <div class="footer-area">
                         <div class="container">
-                            <div class="row footer-copy">
+
                                 <p>
                                     <br>
-                                    <a href="https://plus.google.com/102632111282126849104/posts">
+                                    <a href="http://metadevfoundation.org/">
                                         <br>Web Designed by Metadev of Klouds.
-                                        <a href="http://metadevfoundation.org/">
+                                        <a href="https://plus.google.com/102632111282126849104/posts">
                                             <br>(C) Webstie, All rights reserved, Graphic Designed by abtranbn</a>
                                 </p>
-                            </div>
+
                         </div>
                     </div>
                     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -375,6 +401,10 @@
                     <script src="js/owl.carousel.min.js"></script>
                     <script src="js/wow.js"></script>
                     <script src="js/main.js"></script>
+
+                    <script src="js/jquery.scrolly.min.js"></script>
+			              <script src="js/jquery.scrollzer.min.js"></script>
+
 </body>
 
 </html>
