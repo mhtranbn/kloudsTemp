@@ -14,13 +14,13 @@ $(document).ready(function() {
       singleItem:true,
       mouseDrag: false,
       transitionStyle : "fade"
- 
+
       // "singleItem:true" is a shortcut for:
-      // items : 1, 
+      // items : 1,
       // itemsDesktop : false,
       // itemsDesktopSmall : false,
       // itemsTablet: false,
-      // itemsMobile : false 
+      // itemsMobile : false
   });
 
   $("#testimonial-slider").owlCarousel({
@@ -31,13 +31,13 @@ $(document).ready(function() {
       singleItem:true,
       mouseDrag: false,
       transitionStyle : "goDown"
- 
+
       // "singleItem:true" is a shortcut for:
-      // items : 1, 
+      // items : 1,
       // itemsDesktop : false,
       // itemsDesktopSmall : false,
       // itemsTablet: false,
-      // itemsMobile : false 
+      // itemsMobile : false
   });
 
     $('.more-jobs a').click(function(e){
@@ -45,7 +45,7 @@ $(document).ready(function() {
       var $this = $(this);
       $this.toggleClass('more-jobs a');
       if($this.hasClass('more-jobs a')){
-        $this.text('View less jobs');     
+        $this.text('View less jobs');
       } else {
         $this.text('View more jobs');
       }
@@ -56,9 +56,31 @@ $(document).ready(function() {
     });
 
 
- 
+
 })
 
 // Initializing WOW.JS
 
  new WOW().init();
+
+ // scroll
+
+ $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Remove 'active' class from all links
+            $('.link').removeClass('active');
+            // Add 'active' class to the current link
+            $(this).addClass('active');
+            // And animation
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: (target.offset().top - 0)
+                }, 900);
+                return false;
+            }
+        }
+    });
+});
