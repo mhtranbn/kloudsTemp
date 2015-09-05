@@ -42,9 +42,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Register</title>
-    <!-- CSS -->
-    <!-- <link rel="stylesheet" href="css/master.css" type="text/css" /> -->
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+
 </head>
 
 <body data-spy="scroll" data-target=".main-nav">
@@ -65,24 +63,19 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <div class="button navbar-right">
-                    <!-- <button class="navbar-btn nav-button wow bounceInRight login" data-wow-delay="0.8s">Login</button> -->
-                    <li class="wow fadeInDown"><a href="#login">Login  </a>       <a href="#signup">  Sign up</a></li>
-                    <!-- <button class="navbar-btn nav-button wow fadeInRight" data-wow-delay="0.6s">Sign up</button> -->
-                    <!-- <li class="wow fadeInDown" data-wow-delay="0.8"><a href="#signup">Sign up</a></li> -->
-                </div>
+                <div class="navbar-right">
+
+                    <ul><li class="wow fadeInDown"><a href="#login">Login  </a><a href="#signup">  Sign up</a></li>
+
+                </div></ul>
                 <ul class="main-nav nav navbar-nav navbar-right">
 
-                    <!-- <li><a href="#top" id="home" class="skel-layers-ignoreHref"><span>Home</span></a></li>-------scrollToSlide(index);
-                    <li><a href="#top" id="app" class="skel-layers-ignoreHref"><span>Apps</span></a></li>
-                    <li><a href="#top" id="about" class="skel-layers-ignoreHref"><span>About us</span></a></li> -->
-                    <!-- <li><a href="#contact" id="contact" class="skel-layers-ignoreHref"><span>Contact us</span></a></li> -->
+
                     <li class="wow fadeInDown" data-wow-delay="0s"><a class="active" href="#home">Home</a></li>
                     <li class="wow fadeInDown" data-wow-delay="0.1s"><a href="#app">Apps</a></li>
                     <li class="wow fadeInDown" data-wow-delay="0.2s"><a href="#about">About us</a></li>
                     <li class="wow fadeInDown" data-wow-delay="0.3s"><a href="#contact">Contact us</a></li>
-                    <!-- <li class="wow fadeInDown" data-wow-delay="0.4s"><a href="#">Blog</a></li>
-                <li class="wow fadeInDown" data-wow-delay="0.5s"><a href="#">Contact</a></li> -->
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -100,8 +93,10 @@
         <div class="container slider-content">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+                  <header class="major">
                     <h2>Hanoi - Web Development - Open Source - Enterprise Software - Cloud Computing</h2>
-                    <p>Running a website is difficult if you are not a developer. Klouds.io offers open-source application hosting through 1-click setup so businesses and entrepreneurs can focus on what they do best. - See more at: http://metadevfoundation.org/#sthash.qfjrWSJI.dpuf</p>
+                    <p>Running a website is difficult if you are not a developer. Klouds.io offers open-source application hosting through 1-click setup so businesses and entrepreneurs can focus on what they do best. - See more at:http://metadevfoundation.org/#sthash.qfjrWSJI.dpuf</p>
+                  </header>
                 </div>
             </div>
         </div>
@@ -125,7 +120,7 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active"><a href="#job-seekers" aria-controls="home" role="tab" data-toggle="tab">Teams</a></li>
-                        <!-- <li role="presentation"><a href="#employeers" aria-controls="profile" role="tab" data-toggle="tab">Investors</a></li> -->
+
                     </ul>
                     <!-- Tab panes -->
                     <div class="tab-content">
@@ -186,55 +181,7 @@
                                       </div>
                                   </a>
                                 </li>
-                                
-
                         </div>
-                        <!-- <div role="tabpanel" class="tab-pane fade" id="employeers">
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="">
-                                        <img src="img/employee4.png" alt="">
-                                        <div class="overlay">
-                                            <h3>Instagram</h3></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <img src="img/employee5.png" alt="">
-                                        <div class="overlay">
-                                            <h3>Microsoft</h3></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <img src="img/employee6.png" alt="">
-                                        <div class="overlay">
-                                            <h3>Dribbble</h3></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <img src="img/employee1.png" alt="">
-                                        <div class="overlay">
-                                            <h3>Beats Music</h3></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <img src="img/employee2.png" alt="">
-                                        <div class="overlay">
-                                            <h3>Facebook</h3></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <img src="img/employee3.png" alt="">
-                                        <div class="overlay">
-                                            <h3>Twitter</h3></div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -244,16 +191,14 @@
                 <div class="row page-title text-center wow zoomInDown" data-wow-delay="1s">
                     <h2>Login</h2>
                     <form class="form-signin">
-                            <label for="inputEmail" class="sr-only">Email address</label>
-                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                            <label for="inputPassword" class="sr-only">Password</label>
-                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" value="remember-me"> Remember
-                            </label>
-                        </div>
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                      <div class="input-style">
+                            <input type="email" name="inputEmail" id="inputEmail" value="" placeholder="Email address" width="100px" required autofocus>
+                            <input type="password" name="inputPassword" id="inputPassword" value="" placeholder="Password" width="100px" required autofocus/>
+                      </div>
+                            <br></br>
+                        		<input type="checkbox" id="priority-low" name="priority" >
+                        			<label for="priority-low">Remember</label>
+                        <button class="button" type="submit">Sign in</button>
                     </form>
                 </div>
                 <div class="row how-it-work text-center">
@@ -268,69 +213,40 @@
   <form class="form-register">
                 <form action="" method="post">
                 <table cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                      <label for="inputEmail" class="sr-only">Email address</label>
 
-                        <!-- <td class="form-input-name"></td> -->
+                          <div class="input-style">
+                                <input type="text" name="pre[firstname]" id="pre[firstname]" value="" placeholder="Your first name here..." width="100px" autocomplete="off" required autofocus>
+                                <input type="text" name="pre[lastname]" id="pre[lastname]" value="" placeholder="Your last name here..." width="100px" autocomplete="off" required autofocus/>
+                          </div>
 
-                        <input type="text" id="pre[firstname]" class="form-control" placeholder="Your first name here..." autocomplete="off" required="required">
-                        <!-- <td class="input"><input type="text" name="pre[firstname]" placeholder="Your first name here..." autocomplete="off" required="required" /></td> -->
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="input"><input type="password" name="pre[repassword]" placeholder="Retype your password..." autocomplete="off" required="required" /></td> -->
-                          <input type="text" id="pre[lastname]" class="form-control" placeholder="Your last name here..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="form-control"><input type="text" name="pre[streetaddress]" placeholder="Your street address here..." autocomplete="off" /></td> -->
-                        <input type="text" id="pre[streetaddress]" class="form-control" placeholder="Your street address here..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="form-control"><input type="text" name="pre[city]" placeholder="Your city here..." autocomplete="off" /></td> -->
-                        <input type="text" id="pre[city]" class="form-control" placeholder="Your city here..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="input"><input type="text" name="pre[country]" placeholder="Your country here..." autocomplete="off" /></td> -->
-                        <input type="text" id="pre[country]" class="form-control" placeholder="Your country here..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="input"><input type="number" name="pre[postalcode]" placeholder="Your postal code here..." autocomplete="off" /></td> -->
-                        <input type="number" id="pre[postalcode]" class="form-control" placeholder="Your postal code here..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="input"><input type="email" name="pre[email]" placeholder="Your E-mail here..." autocomplete="off" required="required" /></td> -->
-                        <input type="email" id="pre[email]" class="form-control" placeholder="Your E-mail here..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="input"><input type="password" name="pre[password]" placeholder="Your password here..." autocomplete="off" required="required" /></td> -->
-                        <input type="password" id="pre[password]" class="form-control" placeholder="Your password here..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="input"><input type="password" name="pre[repassword]" placeholder="Retype your password..." autocomplete="off" required="required" /></td> -->
-                        <input type="password" id="pre[password]" class="form-control" placeholder="Retype your password..." autocomplete="off" required="required">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td class="form-control"><textarea name="pre[info]" rows="5" cols="29" placeholder="Aditional information"></textarea></td> -->
-                        <input class="form-control" type="text" id="pre[info]" rows="5" cols="29" placeholder="Aditional information">
-                    </tr>
-                    <tr>
-                        <!-- <td class="form-input-name"></td> -->
-                        <!-- <td><input type="submit" value="Register" /></td> -->
+                          <div class="input-style">
+                                <input type="text" name="pre[streetaddress]" id="pre[streetaddress]" value="" placeholder="Your street address here..." width="100px" autocomplete="off" required autofocus>
+                                <input type="text" name="pre[city]" id="pre[city]" value="" placeholder="Your city here..." width="100px" autocomplete="off" required autofocus/>
+                          </div>
 
+                          <div class="input-style">
+                                <input type="text" name="pre[country]" id="pre[country]" value="" placeholder="Your country here..." width="100px" autocomplete="off" required autofocus>
+                                <input type="text" name="pre[postalcode]" id="pre[postalcode]" value="" placeholder="Your postal code here..." width="100px" autocomplete="off" required autofocus/>
+                          </div>
 
-                    </tr>
+                          <div class="input-style">
+                                <input type="text" name="pre[country]" id="pre[country]" value="" placeholder="Your country here..." width="100px" autocomplete="off" required autofocus>
+                                <input type="text" name="pre[postalcode]" id="pre[postalcode]" value="" placeholder="Your postal code here..." width="100px" autocomplete="off" required autofocus/>
+                          </div>
+                          <div class="input-style">
+                                <input type="email" name="inputEmail" id="inputEmail" value="" placeholder="Email address" width="100px" required autofocus>
+                                <input type="email" name="reinputEmail" id="reinputEmail" value="" placeholder="Retype email address" width="100px" required autofocus>
+                          </div>
+                          <div class="input-style">
+                                <input type="password" name="pre[password]" id="pre[password]" value="" placeholder="Your password here..." width="100px" autocomplete="off" required autofocus/>
+                                <input type="password" name="pre[password]" id="pre[password]" value="" placeholder="Retype your password..." width="100px" autocomplete="off" required autofocus/>
+                          </div>
+                          <br></br>
+                          <button class="button" type="submit">Register</button>
 
                 </table>
                 <br></br>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+
                 </form>
 
                 </form>
@@ -362,17 +278,18 @@
                                 <h2>Contact us</h2>
                                 <form id="contact" method="post" class="form" role="form">
                                     <div class="row">
-                                        <div class="col-xs-6 col-md-6 form-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
-                                        </div>
-                                        <div class="col-xs-6 col-md-6 form-group">
-                                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
-                                        </div>
+                                      <div class="input-style">
+                                            <input type="text" name="name" id="inputName" value="" placeholder="Name" width="100px" required autofocus>
+                                            <input type="email" name="reinputEmail" id="reinputEmail" value="" placeholder="Email address" width="100px" required autofocus>
+                                      </div>
                                     </div>
+                                    <br></br>
                                     <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
                                     <div class="row">
                                         <div class="col-xs-12 col-md-12">
-                                            <button class="btn btn btn-lg" type="submit">Send Message</button>
+                                          <br></br>
+                                            <button class="button" type="sendMessage">SendMessage</button>
+                                            <!-- <button class="btn btn btn-lg" type="submit">Send Message</button> -->
                                         </div>
                                     </div>
                                 </form>
