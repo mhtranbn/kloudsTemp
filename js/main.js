@@ -71,7 +71,7 @@ $(document).ready(function() {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             // Remove 'active' class from all links
-            $('.link').removeClass('active');
+            $(this).closest('.navbar').find('a.active').removeClass('active');
             // Add 'active' class to the current link
             $(this).addClass('active');
             // And animation

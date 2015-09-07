@@ -428,3 +428,5 @@ border-radius: 4px;
 input[type="radio"] + label:before {
 border-radius: 100%;
 }
+
+element.style.visiblity = 'inherit';
