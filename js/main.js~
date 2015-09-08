@@ -79,10 +79,6 @@ $(document).ready(function() {
                 $('html,body').animate({
                     scrollTop: (target.offset().top - 0)
                 }, 900);
-		var bgColor = elem.data('background');
-
-          $('body').css('background-color', bgColor);
-
                 return false;
             }
         }

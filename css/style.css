@@ -28,6 +28,8 @@ header.major {
 body {
 	font-family: 'Segoe UI Light', Segoe UI;
   font-size: 1.25em;
+  transition: background 1s ease;
+   background: #3498db;
 
 	/*padding: 50px 100px;
 	font-size: 13px;
@@ -429,4 +431,40 @@ input[type="radio"] + label:before {
 border-radius: 100%;
 }
 
-element.style.visiblity = 'inherit';
+p {
+  color: #ecf0f1;
+  font-size: 1em;
+  text-align: center;
+
+}
+
+span {
+  clear: both;
+  font-size: .7em;
+  color: #bdc3c7;
+}
+
+a {
+  /*color: #c0392b;*/
+  text-decoration: none;
+}
+
+.slide {
+
+  .inside {
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding: 0 3em;
+
+    p {
+      display: table-cell;
+      width: 100%;
+      clear: both;
+      vertical-align: middle;
+      text-align: center;
+    }
+  }
+}
+
+}
