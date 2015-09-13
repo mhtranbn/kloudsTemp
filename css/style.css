@@ -30,6 +30,7 @@ body {
   font-size: 1.25em;
   transition: background 1s ease;
    background: #3498db;
+   text-align: left;
 
 	/*padding: 50px 100px;
 	font-size: 13px;
@@ -168,6 +169,7 @@ html, body {
 	color: #444;
 	-webkit-font-smoothing: antialiased;
 	background: #f0f0f0;
+  text-align: left;
 
 }
 
@@ -371,6 +373,7 @@ http://www.freshdesignweb.com/beautiful-registration-form-with-html5-and-css3.ht
 }
 .form-register{
 	max-width: 500px;
+  text-align: left;
 }
 
 input[type="checkbox"] + label,
@@ -407,7 +410,7 @@ input[type="radio"] + label {
 		left: 0;
 		line-height: 1.58125em;
 		position: absolute;
-		text-align: center;
+		text-align: left;
 		top: 0;
 		width: 1.65em;
 	}
@@ -437,7 +440,8 @@ border-radius: 100%;
 p {
   color: #ecf0f1;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
+  width: inherit;
 
 }
 
