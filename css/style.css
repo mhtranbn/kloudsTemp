@@ -6,7 +6,8 @@
 	Author: Christian Vasile
 	Author URL: http://christianvasile.com
 */
-
+#example2 { width: 150px; }
+#example1 { width: 550px; }
 header.major {
   text-align: center;
   font-family: 'Segoe UI Light', Segoe UI;
@@ -87,10 +88,13 @@ textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
-	width: 400px;
+	width: 600px;
 	height: 150px;
-	max-width: 400px;
+	max-width: 600px;
 	line-height: 18px;
+}
+.formfield * {
+    vertical-align: middle;
 }
 
 input:hover, textarea:hover,
@@ -304,7 +308,7 @@ input[type=submit] {
 	float: right;
 	margin-right: 20px;
 	margin-top: 20px;
-	width: 80px;
+	width: 160px;
 	height: 30px;
 	font-size: 14px;
 	font-weight: bold;
@@ -369,12 +373,45 @@ http://www.freshdesignweb.com/beautiful-registration-form-with-html5-and-css3.ht
 .form input.buttom{ background: #4b8df9; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:FontAwesome, Geneva, sans-serif;}
 .form input.buttom:hover	{ background-color: #2a78f6; }
 .form-signin{
-	max-width: 500px;
+	max-width: 700px;
 }
 .form-register{
-	max-width: 500px;
+	max-width: 700px;
   text-align: left;
 }
+.form-register span {
+  display: table-cell;
+    vertical-align: middle;
+    width:250px;
+}
+
+.form-register input {
+  float:right;
+  display:inline;
+}
+
+label, input {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 295px;
+}
+
+label {
+    color: #2D2D2D;
+    font-size: 15px;
+}
+
+form, input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+form {
+    width: 700px;
+}
+
+
 
 input[type="checkbox"] + label,
 input[type="radio"] + label {

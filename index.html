@@ -272,108 +272,62 @@
 
 
 
-
-
             <div class="content-area" id="signup">
-               <div class="container">
-                 <div class="row page-title text-center wow zoomInDown" data-wow-delay="1s">
-                   <h2><br></h2>
-                   <h2></h2>
-                   <h2></h2>
-                   <h2></h2>
-                   <h2></h2>
-                   <h2><br></h2>
-                   <h2></h2>
-                   <h2></h2>
-                   <h2></h2>
-                   <h2>App Author Sign-Up</h2>
-                   <p><div style="text-align: left">Are you an open-source app author? Do you have awesome apps on GitHub? Please do sign-up below so
-                     we can link your apps to our system.You'll get one-third of the monthly subscription from the users of your app n our system</p>
-                   <form class="form-register">
-                     <form action="" method="post">
-                       <div >
-                         <label>Name:</label>
-                         <input type="text" name="pre[firstname]" id=
-                         "pre[firstname]" value="" placeholder="Your name here..." width="100px"
-                         autocomplete="off" required="" />
-                         <!-- <input type="text" name="pre[lastname]" id="pre[lastname]" value="" placeholder="Your last name here..." width="100px" autocomplete="off" required autofocus/> -->
-                       </div>
+      <div class="container">
+        <div class="row page-title text-center wow zoomInDown" data-wow-delay="1s">
+          <h2><br /></h2>
 
-                       <div >
-                         <label>Email:</label>
-                         <input type="email" name="inputEmail" id="inputEmail"
-                         value="" placeholder="Email address" width="100px" required="" />
-                         <!-- <input type="email" name="reinputEmail" id="reinputEmail" value="" placeholder="Retype email address" width="100px" required autofocus> -->
-                       </div>
+          <h2><br /></h2>
 
-                       <div >
-                         <label>GitHub Profile:</label>
-                         <input type="text" name="github" id="github" value=""
-                         placeholder="Your github here..." width="100px" autocomplete="off"
-                         required="" />
-                         <!-- <input type="text" name="pre[postalcode]" id="pre[postalcode]" value="" placeholder="Your postal code here..." width="100px" autocomplete="off" required autofocus/> -->
-                       </div><br />
+          <h2>App Author Sign-Up</h2>
 
-                       <button class="button" type="submit">Submit</button>
-                       <h2><br></h2>
-                       <h2></h2>
-                       <h2></h2>
-                       <h2></h2>
-                       <h2></h2>
-                       <h2><br></h2>
-                       <h2></h2>
-                       <h2></h2>
-                       <h2></h2>
-                       <h2></h2>
-                       <table cellpadding="0" cellspacing="0" border="0">
-                         <!-- <div class="input-style">
-                                           <input type="text" name="pre[streetaddress]" id="pre[streetaddress]" value="" placeholder="Your street address here..." width="100px" autocomplete="off" required autofocus>
-                                           <input type="text" name="pre[city]" id="pre[city]" value="" placeholder="Your city here..." width="100px" autocomplete="off" required autofocus/>
-                                     </div>
+          <div style="text-align: left">
+            Are you an open-source app author? Do you have awesome apps on GitHub? Please
+            do sign-up below so we can link your apps to our system.You'll get one-third of
+            the monthly subscription from the users of your app n our system
 
-                                     <div class="input-style">
-                                           <input type="text" name="pre[country]" id="pre[country]" value="" placeholder="Your country here..." width="100px" autocomplete="off" required autofocus>
-                                           <input type="text" name="pre[postalcode]" id="pre[postalcode]" value="" placeholder="Your postal code here..." width="100px" autocomplete="off" required autofocus/>
-                                     </div>
+            <form>
+    <label for="name">Name:</label><input type="text" id="name" placeholder="Name">
+    <label for="appOnGit">Apps on GitHub:</label><input type="text" id="appOnGit" placeholder="link">
+    <label for="email">E-Mail:</label><input type="text" id="email" placeholder="Contact email">
+    <label for="github">GitHub Profile:</label><input type="text" id="github" placeholder="link">
+</form>
 
-                                     <div class="input-style">
-                                           <input type="text" name="pre[country]" id="pre[country]" value="" placeholder="Your country here..." width="100px" autocomplete="off" required autofocus>
-                                           <input type="text" name="pre[postalcode]" id="pre[postalcode]" value="" placeholder="Your postal code here..." width="100px" autocomplete="off" required autofocus/>
-                                     </div> -->
-                         <!-- <div class="input-style">
-                                           <input type="password" name="pre[password]" id="pre[password]" value="" placeholder="Your password here..." width="100px" autocomplete="off" required autofocus/>
-                                           <input type="password" name="pre[password]" id="pre[password]" value="" placeholder="Retype your password..." width="100px" autocomplete="off" required autofocus/>
-                                     </div> -->
-                       </table><br />
-                       <br />
-                     </form>
-                   </form>
-                 </div>
+          </div>
 
-                 <div class="row how-it-work text-center"></div>
-               </div>
-               <hr />
-             </div>
+          <div class="row how-it-work text-center"></div>
+        </div>
+        <hr />
+      </div>
+    </div>
 
                 <div class="content-area" id="contact">
         <div class="content-area">
           <div class="container">
             <div class="row page-title text-center wow zoomInDown" data-wow-delay="1s">
               <h2>Contact us</h2>
+              <form>
+      <label for="name">Name:</label><input type="text" id="name" placeholder="Name">
+      <label for="email">E-Mail:</label><input type="text" id="email" placeholder="Contact email">
+  </form>
+              <!-- <div >
+                <label for="name">Name:</label><input type="text" id="name" placeholder="Name">
+                <br></br>
+                <label for="email">E-Mail:</label><input type="text" id="email" placeholder="Contact email">
+                <div> -->
+                  <p class="formfield">
+                      <!-- <label for="textarea">Label for textarea</label> -->
+                      <textarea id="textarea" rows="5"></textarea>
+                  </p>
 
-              <div >
-                <input type="text" name="name" id="name" value="" placeholder="Name" width=
-                "100px" required="" /> <input type="email" name="inputEmail" id="inputEmail"
-                value="" placeholder="Email address" width="100px" required="" />
+                <!-- <input type="text" name="name" id="name" value="" placeholder="Name" width=
+                "100px" required="" />
+                <input type="email" name="inputEmail" id="inputEmail"
+                value="" placeholder="Email address" width="100px" required="" /> -->
               </div>
 
               <form id="contact" method="post" class="form" role="form"></form>
-            </div><br />
-            <br />
-            <textarea class="form-control" id="message" name="message" placeholder="Message"
-            rows="5">
-    </textarea>
-    <br></br>
+            </div>
     <button class="button" type="sendmessage">SendMessage</button>
           </div>
         </div>

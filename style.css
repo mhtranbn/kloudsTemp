@@ -25,6 +25,7 @@ body{
 
 }
 .header-social ul li a:hover{
+
 	color: #00AEEF
 }
 .navbar-default .navbar-nav > li > a{
@@ -242,7 +243,7 @@ background-color: #00aeef;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.single-work.active{	
+.single-work.active{
 	background: #00AEEF
 }
 .single-work.active h3{
@@ -337,7 +338,7 @@ background-color: #00aeef;
 }
 
 .tab-content ul.job-seeker li a .overlay{
-	
+
 }
 .tab-content ul.job-seeker li a .overlay h3 {
   bottom: -100px;
