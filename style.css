@@ -169,6 +169,42 @@ background-color: #00aeef;
   width: 195px;
 }
 .comments { width: 295px; height: 115px }
+
+#play_button {
+    position:absolute;
+transition: .5s ease;
+    left: 402px;
+    top: 298px;
+
+
+
+}
+.play_button{
+	/*-moz-transition: all 0.1s ease;
+	-ms-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	-webkit-box-shadow: #6E7849 0 0 10px;
+	-webkit-transition: all 0.1s ease;*/
+	background-color: #8888FF;
+	border: 2px solid #8888FF;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.25em;
+	/*margin: auto;*/
+
+	text-decoration: none;
+	transition: all 0.1s ease;
+	width: 140px;
+	height: 40px;
+
+	position:absolute;
+transition: .5s ease;
+	left: 702px;
+	top: 590px;
+
+}
+
+
 /*.form-control2 {
 	background: none repeat scroll 0 0 #eeeeee;
 	border-radius: 1px;
