@@ -168,6 +168,16 @@ background-color: #00aeef;
   margin-right: 10px;
   width: 195px;
 }
+.comments { width: 295px; height: 115px }
+/*.form-control2 {
+	background: none repeat scroll 0 0 #eeeeee;
+	border-radius: 1px;
+	color: #333;
+	font-style: italic;
+	height: 40px;
+	margin-right: 10px;
+	width: 50px;
+}*/
 .form-inline input[type=submit]{
 	background: #00AEEF;
 	color: #fff;
