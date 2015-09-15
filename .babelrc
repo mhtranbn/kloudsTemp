@@ -1,0 +1,6 @@
+{
+	"stage": "1",
+	"optional": ["utility.inlineEnvironmentVariables", "es7.asyncFunctions"],
+	"ignore": "node_modules",
+	"sourceMaps": "inline"
+}

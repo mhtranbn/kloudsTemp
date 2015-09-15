@@ -55,7 +55,23 @@ $(document).ready(function() {
       $('.table tr.hide-jobs').toggle();
     });
 
-
+    $('#author-submit').on('click', function(ev) {
+      $.ajax({
+        url: 'http://localhost:8080/author',
+        type: 'post',
+        data: JSON.stringify({
+          'author-name': $('#author-name').val(),
+          'author-email': $('#author-email').val(),
+          'author-github': $('#author-github').val(),
+          'author-apps': $('#author-apps').val(),
+        }),
+        success: function(result) {
+            $('#author').html('<div class="alert">Thanks</div>')
+        },
+        dataType: 'json',
+        contentType: 'json'
+      })
+    })
 
 })
 
