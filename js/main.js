@@ -57,7 +57,7 @@ $(document).ready(function() {
 
     $('#author-submit').on('click', function(ev) {
       $.ajax({
-        url: 'http://hoangmanhtran.com/author',
+        url: 'http://hoangmanhtran.com:8080/author',
         type: 'post',
         data: JSON.stringify({
           'author-name': $('#author-name').val(),
@@ -95,9 +95,9 @@ $(document).ready(function() {
                 $('html,body').animate({
                     scrollTop: (target.offset().top - 0)
                 }, 900);
-		var bgColor = elem.data('background');
+		// var bgColor = elem.data('background');
 
-          $('body').css('background-color', bgColor);
+          // $('body').css('background-color', bgColor);
 
                 return false;
             }
@@ -110,22 +110,22 @@ $(document).ready(function() {
  * https://github.com/Funsella/jquery-scrollie
  */
 
-
-$( window ).ready(function() {
-
-    var wHeight = $(window).height();
-
-    $('.slide')
-      .height(wHeight)
-      .scrollie({
-        scrollOffset : -50,
-        scrollingInView : function(elem) {
-
-          var bgColor = elem.data('background');
-
-          $('body').css('background-color', bgColor);
-
-        }
-      });
-
-  });
+//
+// $( window ).ready(function() {
+//
+//     var wHeight = $(window).height();
+//
+//     $('.slide')
+//       .height(wHeight)
+//       .scrollie({
+//         scrollOffset : -50,
+//         scrollingInView : function(elem) {
+//
+//           var bgColor = elem.data('background');
+//
+//           $('body').css('background-color', bgColor);
+//
+//         }
+//       });
+//
+//   });
