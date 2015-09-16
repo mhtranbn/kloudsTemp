@@ -57,7 +57,7 @@ $(document).ready(function() {
 
     $('#author-submit').on('click', function(ev) {
       $.ajax({
-        url: 'http://localhost:8080/author',
+        url: 'http://hoangmanhtran.com/author',
         type: 'post',
         data: JSON.stringify({
           'author-name': $('#author-name').val(),
