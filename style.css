@@ -175,10 +175,35 @@ background-color: #00aeef;
 transition: .5s ease;
     left: 402px;
     top: 298px;
+}
 
+#logIn_bygit {
+	position:absolute;
+	transition: .5s ease;
+	left: 482px;
+	top: 298px;
+}
 
+.logIn_bygit {
+	background-color: #8888FF;
+	border: 2px solid #8888FF;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.25em;
+	/*margin: auto;*/
+
+	text-decoration: none;
+	transition: all 0.1s ease;
+	width: 150px;
+	height: 40px;
+
+	position:absolute;
+transition: .5s ease;
+	left: 555px;
+	top: 590px;
 
 }
+
 .play_button{
 	/*-moz-transition: all 0.1s ease;
 	-ms-transition: all 0.1s ease;
@@ -194,12 +219,12 @@ transition: .5s ease;
 
 	text-decoration: none;
 	transition: all 0.1s ease;
-	width: 140px;
+	width: 80px;
 	height: 40px;
 
 	position:absolute;
 transition: .5s ease;
-	left: 702px;
+	left: 765px;
 	top: 590px;
 
 }

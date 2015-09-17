@@ -73,7 +73,24 @@ $(document).ready(function() {
       })
     })
 
+    $('#author-github').on('click',function(ve) {
+      $.ajax({
+        url: 'https://github.com/login',
+        type: 'login',
+        data: JSON.stringify({
+
+        }),
+        success: function (result) {
+          $('author').html('<div class="alert">Thank</div>')
+        },
+        dataType: 'json',
+        contentType: 'json'
+      })
+    })
+
 })
+
+
 
 // Initializing WOW.JS
 

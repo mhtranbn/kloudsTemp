@@ -1,0 +1,10 @@
+{
+"server": {
+"protocol":   "http",
+"host":   "127.0.0.1:3000" },
+"github": {
+"key": "fd631c47ac3b62dfcc20",
+"secret": "8d521e869275377c6bae1897818e7f1c55c84cf0",
+"callback":   "/handle_git_callback"
+}
+}
