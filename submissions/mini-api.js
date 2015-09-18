@@ -20,7 +20,7 @@ app.use(jsonbody())
 function verbFactory(method) {
   return url => xfn => app.use(
           route[method](url, function* (param) {
-            this.body = yield xfn(param, this.request.body)
+            this.body = yield xfn(param, this)
           })
         )
 }

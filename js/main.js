@@ -73,15 +73,15 @@ $(document).ready(function() {
       })
     })
 
-    $('#author-github').on('click',function(ve) {
+    $('#github-submit').on('click',function(ve) {
       $.ajax({
         url: 'https://github.com/login',
-        type: 'login',
+        type: 'post',
         data: JSON.stringify({
 
         }),
         success: function (result) {
-          $('author').html('<div class="alert">Thank</div>')
+          $('author').html('<div class="alert">Thank Daniel</div>')
         },
         dataType: 'json',
         contentType: 'json'
