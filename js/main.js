@@ -40,20 +40,20 @@ $(document).ready(function() {
       // itemsMobile : false
   });
 
-    $('.more-jobs a').click(function(e){
-      e.preventDefault();
-      var $this = $(this);
-      $this.toggleClass('more-jobs a');
-      if($this.hasClass('more-jobs a')){
-        $this.text('View less jobs');
-      } else {
-        $this.text('View more jobs');
-      }
-    });
+    // $('.more-jobs a').click(function(e){
+    //   e.preventDefault();
+    //   var $this = $(this);
+    //   $this.toggleClass('more-jobs a');
+    //   if($this.hasClass('more-jobs a')){
+    //     $this.text('View less jobs');
+    //   } else {
+    //     $this.text('View more jobs');
+    //   }
+    // });
 
-    $('.more-jobs a').click(function(){
-      $('.table tr.hide-jobs').toggle();
-    });
+    // $('.more-jobs a').click(function(){
+    //   $('.table tr.hide-jobs').toggle();
+    // });
 
     $('#author-submit').on('click', function(ev) {
       $.ajax({
