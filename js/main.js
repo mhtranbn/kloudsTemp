@@ -75,8 +75,9 @@ $(document).ready(function() {
 
     $('#github-submit').on('click',function(ve) {
       $.ajax({
-        url: 'https://github.com/login',
-        type: 'post',
+        url: 'https://www.google.com.vn',
+        type: 'POST',
+        crossDomain: true,
         data: JSON.stringify({
 
         }),
@@ -146,3 +147,22 @@ $(document).ready(function() {
 //       });
 //
 //   });
+
+// $(document).ready(function(){
+//         var from,to,subject,text;
+//         $("#send_email").click(function(){     
+//             to=$("#contact-email").val();
+//             // subject=$("#subject").val();
+//             text=$("#textarea_content").val();
+//             // $("#message").text("Sending E-mail...Please wait");
+//             $.get("http://localhost:3000/send",{to:to,subject:subject,text:text},function(data) {
+//                 if(data=="sent") {
+//                     // $("#message").empty().html("Email is been sent at "+to+" . Please check inbox !");
+//                 }
+//             });
+//         });
+//     });
+
+
+
+

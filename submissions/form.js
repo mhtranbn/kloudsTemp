@@ -16,6 +16,7 @@ let client = octo.auth.config({
 import miniapi from './mini-api'
 let { get, post } = miniapi;
 
+
 async function author({data}) {
   let ok = db.lpush(`klouds-authors`, JSON.stringify(data))
 
